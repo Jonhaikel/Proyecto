@@ -1,0 +1,88 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem - 10px*/
+}
+
+*,*:before*:after{
+    box-sizing: inherit;
+}
+
+
+.tenis_image{
+    width: 25rem;
+    height: 25rem;
+}
+
+.col{
+    display: block;
+    float: left;
+    margin: 1rem 0 0 1rem;
+}
+
+.colum-order{
+    width: 32.26%;
+}
+
+.button{
+    padding: 0.5rem;
+    background-color: #ffc107;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+
+}
+
+.ten{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.6617997540813201) 0%, rgba(12,166,171,0.7094188017003676) 46%, rgba(0,212,255,1) 100%);
+
+    width: 28rem;
+    margin-left: 8rem;
+    text-align: center;
+}
+
+
+#h1{
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.descrip{
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+body{
+    background-color: #0097a7;
+}
+
+.description-teni{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    background: rgb(12,91,79);
+    background-image: linear-gradient(90deg, rgba(12,91,79,0.846673703661152) 0%, rgba(22,144,116,0.8998949921765581) 54%, rgba(1,11,11,0.7990546560421043) 100%);
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
