@@ -1,5 +1,5 @@
 Nav {
-    background-color: rgba(29, 9, 212, 0.534);
+    background-color: rgba(67, 66, 77, 0.849);
     justify-content: space-around;
     display: flex;
     width: 100%;
@@ -60,7 +60,7 @@ body{
     font-size: 1.6rem;
     font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400;
     background: rgb(6,198,150);
-    background: linear-gradient(-45deg, rgba(6,198,150,1) 50%, rgba(196,232,174,1) 50%);
+    background: linear-gradient(-45deg, rgba(226, 183, 142, 0.808) 50%, rgba(134, 134, 134, 0.664) 50%);
 }
 #Banner img{
     width: 100%;
