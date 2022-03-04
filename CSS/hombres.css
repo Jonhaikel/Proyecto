@@ -29,9 +29,7 @@ html{
     margin: 1rem 0 0 1rem;
 }
 
-.colum-order{
-    width: 32.26%;
-}
+/**/
 
 .button{
     padding: 0.5rem;
@@ -41,13 +39,24 @@ html{
 
 }
 
-.ten{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,0.6617997540813201) 0%, rgba(12,166,171,0.7094188017003676) 46%, rgba(0,212,255,1) 100%);
+.canti{  
+    width: 10rem;
+}
 
+.ten{
+    background: rgb(57,57,57);
+    background: linear-gradient(90deg, rgba(57,57,57,0.9139005944174545) 31%, rgba(0,0,0,0.7990546560421043) 45%, rgba(6,5,5,0.9167017148656338) 69%);
     width: 28rem;
     margin-left: 8rem;
     text-align: center;
+    height: 56.5rem;
+}
+
+.price{
+    color: aquamarine;
+    margin: 0;
+    float: left;
+    font-size: 2rem;
 }
 
 
@@ -85,4 +94,5 @@ h2{
 h3{
     font-size: 2rem;
     font-weight: 600;
+    color: bisque;
 }
