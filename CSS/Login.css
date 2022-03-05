@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400;
+    background: rgb(2, 207, 156);
+    background: linear-gradient(-45deg, rgba(226, 183, 142, 0.808) 50%, rgba(134, 134, 134, 0.664)50%);
+    display: flex;
+    min-width: 100vh;
+}
+.form{
+    background-color: rgba(95, 95, 94, 0.664);
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 3.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+    text-align: center;
+}
+.Titulo {
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+.Cuenta {
+    font-weight: 300;
+}
+.Enlace {
+    font-weight: 400;
+    color: brown;
+}
+.Contenedor {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.Grupos{
+    position: relative;
+    color: aquamarine;
+}
+.Input{
+    width: 100%;
+    background: none;
+    color: antiquewhite;
+    font-size: 1rem;
+    padding: .6em .3em;
+}
