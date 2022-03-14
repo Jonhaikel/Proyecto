@@ -36,15 +36,31 @@ body {
     margin-top: 3em;
     display: grid;
     gap: 2.5em;
+    position: relative;
+    left: 100%;
+
 }
 .Grupos{
     position:relative;
-    color: aquamarine;
+    right:100%;
+    color: aquamarine ;
 }
 .Input{
+    position: relative;
     width: 100%;
     background: none;
     color: antiquewhite;
     font-size: 1rem;
-    padding: .6em .3em;
+    padding: .4em .3em;
+}
+.submit{
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    bottom: -10%; 
+    color: aqua;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
 }
