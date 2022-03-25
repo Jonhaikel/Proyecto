@@ -26,13 +26,16 @@ html{
     box-sizing: border-box;
 }
 
-
+header{
+    background-color: antiquewhite;
+}
 
 .contenedor-tenis{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    background-color: antiquewhite;
 }
 .col{
     margin: 2rem;
