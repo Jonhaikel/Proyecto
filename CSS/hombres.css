@@ -33,7 +33,7 @@ html{
 
 /*.button{
     padding: 0.5rem;
-    background-color: #ffc107;
+    background-color: var(--primario);
     margin-left: 10rem;
     margin-bottom: 2rem;
 

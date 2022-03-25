@@ -4,25 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/hombres.css">
+    <title>Ofertas Hombres</title>
+    <link rel="stylesheet" href="/CSS/ofertas.css">
     <link rel="stylesheet" href="/CSS/Style.css">
-    <link rel="stylesheet" href="CSS/Normalize.css">
-    <title>Tenis Hombre</title>
+    <link rel="stylesheet" href="/CSS/Normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <header>
-
-        <h1 id="h1">Tienda Virtual</h1>
-        <p class="descrip">Esta es una tienda virtual de tenis de marca originales, se realizan envios a todo el pais y se cuenta con 
-            garantia por defecto de fabrica
-        </p>
-    </header>
-
-    <nav id="Nav">
-        <div>
+    <div Class="Nav">
+        <Nav class="N">
             <ul>
-                <li><a href="/Index.html">Inicio</a></li>
+                <li><a class="fa-solid fa-shop" href="/Index.html"></a></li>
                 <li><a href="#">Mujeres</a>
                     <ul >
                         <li><a href="#">Nike</a></li>
@@ -32,7 +25,7 @@
                         <li><a href="#">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Hombres</a>
+                <li><a href="/Modulos/Hombres/Parte_hombres.html">Hombres</a>
                 <ul >
                     <li><a href="/Modulos/Hombres/Parte_hombres.html">Nike</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_adidas.html">Adidas</a></li>
@@ -43,34 +36,38 @@
             </li>
                 <li><a href="#">Niños</a>
                     <ul >
-                        <li><a href="#">Nike</a></li>
+                        <li><a href="/Modulos/Niños/Nike.html">Nike</a></li>
                         <li><a href="#">Adidas</a></li>
                         <li><a href="#">Vans</a></li>
                         <li><a href="#">Converse</a></li>
                         <li><a href="#">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="/Modulos/Ofertas/Hombres.html">Ofertas</a>
-                    <ul>
-                        <li><a href="/Modulos/Ofertas/Hombres.html"></a>Ofertas Hombres</li>
-                        <li><a href="/Modulos/Ofertas/mujeres.html"></a>Ofertas Mujeres</li>
-                        <li><a href="/Modulos/Ofertas/Niños.html"></a>Ofertas Niños</li>
-                    </ul>
-                </li>
-                <li><a href="#">Login</a>
+    
+        </ul>
+        </Nav>
+            <Nav class="X">
+            <ul>
+               <li><a class="fa-solid fa-percent" href="/Modulos/Ofertas/Hombres.html"></a>
                 <ul >
-                    <li><a href="#">Iniciar Sesion</a></li>
-                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="/Modulos/Ofertas/Hombres.html">Hombres</a></li>
+                    <li><a href="/Modulos/Ofertas/mujeres.html">Mujeres</a></li>
+                    <li><a href="/Modulos/Ofertas/Niños.html">Niños</a></li>
                 </ul>
             </li>
-                <li><a href="#">Carrito</a></li>
+                <li><a class="fa-solid fa-user"></a>
+                <ul >
+                    <li><a href="/Modulos/Login/Registrarse.html">Iniciar Sesion</a></li>
+                    <li><a href="/Modulos/Login/sesion.html">Registrarse</a></li>
+                </ul>
+            </li>
+                <li><a class="fa-solid fa-cart-shopping" href="/Compra.html"></a></li>
             </ul>
-        </div>  
-    </nav>
-
-    <h2>Tenis destacados</h2>
-
-    <section class="tenis">
+        </ul>
+        </Nav>
+    </div> 
+    
+        <h2>Ofertas Nike</h2>
         <div class="col colum-order">
             <div class="ten">
                 <h3>Tenis Jordan 1</h3>
@@ -81,6 +78,8 @@
                      animi dolorem odio architecto error delectus, tempora porro suscipit dolorum officia illum perspiciatis incidunt,<br>
                       iusto ut sed! <br>
                 </p>
+                <br>
+                <p class="price">Precio 12000</p>
 
                 <form action="">
                     <input type="number" placeholder="Cantidad" class="canti">
@@ -93,7 +92,7 @@
 
         <div class="col colum-order">
             <div class="ten">
-                <h3>Tenis nike</h3>
+                <h3>Tenis Jordan 1 University blue<h3>
                 <img class="tenis_image" src="/Imagenes/Jordan 1 hombre2.jpg" alt="">
 
                 <p class="description-teni">
@@ -101,6 +100,8 @@
                      animi dolorem odio architecto error delectus, tempora porro suscipit dolorum officia illum perspiciatis incidunt,<br>
                       iusto ut sed! <br>
                 </p>
+                <br>
+                <p class="price">Precio 12000</p>
 
                 <form action="">
                     <input type="number" placeholder="Cantidad" class="canti">
@@ -112,7 +113,7 @@
         
         <div class="col colum-order">
             <div class="ten">
-                <h3>Tenis nike</h3>
+                <h3>Air Jordan 3 Retro</h3>
                 <img class="tenis_image" src="/Imagenes/Jordan 3 hombre.jpg" alt="">
 
                 <p class="description-teni">
@@ -120,6 +121,8 @@
                      animi dolorem odio architecto error delectus, tempora porro suscipit dolorum officia illum perspiciatis incidunt,<br>
                       iusto ut sed! <br>
                 </p>
+                <br>
+                <p class="price">Precio 12000</p>
 
                 <form action="">
                     <input type="number" placeholder="Cantidad" class="canti">
@@ -129,66 +132,53 @@
             </div>
         </div>
 
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis nike</h3>
-                <img class="tenis_image" src="/Imagenes/Jordan 3 hombre2.jpg" alt="">
+   <h2 class = "h2">Ofertas Adidas</h2>
+   
+   <div class="col colum-order">
+    <div class="ten">
+        <h3>Tenis Adidas Fluidstreet Azul</h3>
+        <img class="tenis_image" src="/Imagenes/Tenis_Fluidstreet_Azul_adidas_hombre.jpg" alt="">
+        <p class="description-teni">
+            TENIS LIGEROS CON AMORTIGUACIÓN OPTIMIZADA <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium enim quo quaerat blanditiis,<br>
+             animi dolorem odio architecto error delectus, tempora porro suscipit dolorum officia illum perspiciatis incidunt,<br>
+              iusto ut sed! 
+        </p>
 
-                <p class="description-teni">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium enim quo quaerat blanditiis,<br>
-                     animi dolorem odio architecto error delectus, tempora porro suscipit dolorum officia illum perspiciatis incidunt,<br>
-                      iusto ut sed! <br>
-                </p>
+        <br>
+        <p class="price">Precio 12000</p>
 
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
+        <form action="">
+            <input type="number" placeholder="Cantidad" class="canti">
+            <input type="submit" value="Agregar al carrito" class="button">
+        </form>
 
-            </div>
-        </div>
+    </div>
+</div>
 
+<div class="col colum-order">
+    <div class="ten">
+        <h3>Tenis Asweetrain</h3>
+        <img class="tenis_image" src="/Imagenes/Tenis_Asweetrain_Negro_adidas_hombre.jpg" alt="">
 
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis nike</h3>
-                <img class="tenis_image" src="/Imagenes/Jordan 3 hombre2.jpg" alt="">
+        <p class="description-teni">
+            TENIS DE ENTRENAMIENTO CON AMORTIGUACIÓN, ESTILO Y COMODIDAD <br>
+            Es viernes en la noche. Todos salieron o ya están durmiendo. Y sin embargo tú aún estás en el gimnasio.
+             Como siempre. Estos tenis adidas para entrenar te ayudan a lograr tus objetivos, 
+             incluso cuando crees que ya no puedes más. La amortiguación ligera en la mediasuela se encarga de imprimirle suavidad a cada pisada.
+        </p>
 
-                <p class="description-teni">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium enim quo quaerat blanditiis,<br>
-                     animi dolorem odio architecto error delectus, tempora porro suscipit dolorum officia illum perspiciatis incidunt,<br>
-                      iusto ut sed! <br>
-                </p>
+        <p class="price">Precio 12000</p>
 
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
+        <form action="">
+            <input type="number" placeholder="Cantidad" class="canti">
+            <input type="submit" value="Agregar al carrito" class="button">
+        </form>
 
-            </div>
-        </div>
+    </div>
+</div>
+   
 
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis nike</h3>
-                <img class="tenis_image" src="/Imagenes/Jordan 3 hombre3.jpg" alt="">
-
-                <p class="description-teni">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium enim quo quaerat blanditiis,<br>
-                     animi dolorem odio architecto error delectus, tempora porro suscipit dolorum officia illum perspiciatis incidunt,<br>
-                      iusto ut sed! <br>
-                </p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-                
-            </div>
-        </div>
-
-    </section>
-    
 
 </body>
 </html>
