@@ -4,15 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./CSS/Style.css">
     <link rel="stylesheet" href="./CSS/Normalize.css">
+    <link rel="stylesheet" href="/CSS/Login.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <form action="">
-        <h1>Registrate</h1>
-        <label for="Nombre">Nombre</label>
-        <input type="text" placeholder="Ingresa tu nombre">
+<body class="x">
+    <div Class="Nav">
+        <Nav class="N">
+            <ul>
+                <li><a class="fa-solid fa-shop" href="/Index.html"></a></li>
+            </ul>
+        </Nav>
+    </div>   
+    <br>
+    <form class="form">
+        <h2 class="Titulo">Inicio de Sesion</h2>
+        <p class="Cuenta">NO tienes una cuenta? <a href="/Modulos/Login/sesion.html" class="Enlace">Ingresa aqui</a></p>
+
+        <div class="Contenedor">
+            <div class="Grupos">
+                <input type="email" id="Correo" class="Input" placeholder=" ">
+                <label for=" Correo" class="Input">Correo</label>
+                <span class="linea"></span>
+            </div>
+            <div class="Grupos">
+                <input type="password" id="Contra" class="Input" placeholder=" ">
+                <label for=" Contra" class="Input">Contraseña</label>
+                <span class="linea"></span>
+                <br>
+                <br>
+            </div>
+
+            <input type="submit" class="submit" value="Registrarse">
+        </div>
     </form>
 </body>
 </html>
