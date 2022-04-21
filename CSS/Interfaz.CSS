@@ -1,4 +1,6 @@
-
+.x{
+    background: rgb(112, 90, 50);
+}
 h2{color:rgb(0, 238, 255);}
 
 label{color: rgb(0, 238, 255);}
@@ -24,4 +26,9 @@ table{
 }
 #colores{
     color:hsl(0, 100%, 50%)
+}
+
+img{
+    height: 12rem;
+    width: 12rem;
 }

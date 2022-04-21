@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="./CSS/Normalize.css">
+    
     <link rel="stylesheet" href="/CSS/Login.css">
     <link rel="stylesheet" href="/CSS/Style.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
+
 </head>
 <body class="x">
     <div Class="Nav">
@@ -21,14 +21,14 @@
         </Nav>
     </div>   
     <br>
-    <form class="form">
+    <form class="form" id="formulario">
         <h2 class="Titulo">Registrate</h2>
         <p class="Cuenta">Ya tienes una cuenta? <a href="/Modulos/Login/Registrarse.html" class="Enlace">Ingresa aqui</a></p>
 
         <div class="Contenedor">
             <div class="Grupos">
                 <input type="text" id="Nombre" class="Input" placeholder=" ">
-                <label for=" Nombre" class="Input">Nombre</label>
+                <label for=" Nom" class="Input">Nombre</label>
                 <span class="linea"></span>
             </div>
             <div class="Grupos">
@@ -48,7 +48,10 @@
             </div>
 
             <input type="submit" class="submit" value="Registrarse">
+            
         </div>
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/JS/Login.js"></script>
 </body>
 </html>

@@ -7,17 +7,17 @@ html{
 }
 /*Navegacion*/
 .Nav {
-    background-color: rgba(8, 8, 8, 0.692);
+    background-color: rgba(8, 8, 8, 0.966);
     justify-content: space-evenly;
     display:flex;
     width: 100%;
     margin:auto;
     cursor: pointer;
-    
-
+    height: 100%;
+    padding-bottom: 2rem;
 }
 .N {
-    background-color: rgba(8, 8, 8, 0);
+    background-color: rgba(8, 8, 8, 0.329);
     justify-content: flex-start;
     display:flex;
     width: 100%;
@@ -27,13 +27,13 @@ html{
 
 }
 .X {
-    background-color: rgba(8, 8, 8, 0);
+    background-color: rgba(8, 8, 8, 0.329);
     justify-content: flex-end;
     display: flex;
-    width: 50%;
+    width: 100%;
     margin:auto;
     cursor: pointer;
-    margin-right: 48px;
+    margin-right: 20px;
    
 
 }
@@ -43,10 +43,6 @@ Nav ul {
     float: left;
     justify-content:space-around;
     flex-wrap: wrap;
-
-
-
-
 }
 Nav ul li ul {
     display: flex;
@@ -65,32 +61,32 @@ a{
     padding: 10px 14px;
     display: block;
     flex-wrap: wrap;
-    
 }
+
 a:hover{
     background: rgb(175, 172, 172);
 }
+
 Nav ul li ul li{
   width: 100%; 
   border-bottom: 1px solid rgba(238, 238, 238, 0.952);
 }
+
 Nav ul li ul{
     display: none;
 }
+
 Nav ul li:hover > ul{
     display: block;
 }
-h2,p{
-    color:rgb(255, 255, 255);
-    font-size: 2.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
+
+
+
 body{
     font-size: 1.6rem;
     font-family: 'Smokum', cursive;
-    background: rgb(6,198,150);
-    background:rgba(0, 0, 0, 0.719);
+    background: #2c332fdc;
+
 }
 
 @media (max-width:768px) {
@@ -128,14 +124,26 @@ body{
 
 .Banner p{
     font-size: 2.5rem;
-}
+        color:rgb(255, 255, 255);
+        font-size: 2.5rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
 
+@media (max-width:768px) {
+    .principal{
+        background: url(../Imagenes/fondo7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
 /*x*/
 .F{
     margin: auto;
     width: 100%;
-    max-width: 500px;
-    padding: 2em 1em;
+    max-width: 600px;
+    padding: 1em 1em;
     text-align: center;
 }
 
@@ -155,22 +163,13 @@ body{
     background-color: #42dca3;
     color: black;
 }
-
+/*Nosotros*/
 #Somos{
-    background: linear-gradient(rgba(0, 0, 0, 0.719),rbga(5));
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 100%;   
-}
-
-.Fondo{
-    background: url(../Imagenes/f2.jpg);
-    width: 100%;
-    height: 100%;
+    background-image: url(../Imagenes/f5.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 5rem;
-    position: relative;
+    height: 50rem;
+    position: relative; 
 }
 
 .info{
@@ -181,9 +180,7 @@ body{
         justify-content: center;
         width: 100%;
         height: 100%;
-        right: 0%;
-        top: 0%;
-        background: #0000009d;
+        background: #000000a9;
 }
 
 .info p{
@@ -192,4 +189,150 @@ body{
     text-align: center;
     position: relative;
 }
+#Titulo{ 
+    color: #2bbd18be;
+    font-size: 5rem;
+}
+@media (max-width:768px) {
+    .info{
+        background: url(../Imagenes/fondoP.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
 
+    }
+}
+    @media (max-width:375px) {
+        .info{
+            background: url(../Imagenes/fondoPm.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+        }
+    }
+
+/*Contactanos*/
+#Contacto{
+    width: 80%;
+    background: #ffffff;
+    padding: 30px 60px 40px 40px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px;
+    margin-left: 8%;
+}
+#Contacto .Contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Contacto .Contenido .izquierdo{
+    width: 25%;
+    height: 100%;
+    position: relative;
+
+}
+.Contenido .izquierdo::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #42dca3;
+}
+.izquierdo .Detalle .text1,
+.izquierdo .Detalle .text2{
+    font-size: 13px;
+    color: rgb(122, 163, 163);
+}
+.izquierdo .Detalle{
+    margin: 14px;
+    text-align: center;
+}
+.izquierdo .Detalle i{
+    font-size: 30px;
+    color: #3e2093;
+}
+.izquierdo .Detalle .topic{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#Contacto .Contenido .derecho{
+    width: 75%;
+    margin-left: 75px;
+}
+.Contenido .derecho .tema{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3e2093;
+}
+.derecho .Caja{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+.derecho .Caja input,
+.derecho .Caja textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    background: #bbb6b6b4;
+    border-radius: 10px;
+    padding: 0 15px;
+    resize: none;
+}
+.Ctexto{
+    min-height: 140px;
+    margin-top: 6px;
+}
+.derecho .btn-contact input{
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    background: #3e2093;
+    cursor: pointer;
+}
+
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+    justify-content: center;
+    margin-right: 380px;
+    margin-top: -5px;
+
+}
+.buscar input{
+    width: 0;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+
+}
+.bus{
+    position: absolute;
+    top: 0;
+    right:0;
+    background:#42dca3 ;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+.buscar:hover input{
+    width: 240px;
+}
