@@ -8,35 +8,32 @@
     <link rel="stylesheet" href="/CSS/hombres.css">
     <link rel="stylesheet" href="/CSS/Style.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
+    <link rel="stylesheet" href="/CSS/style_mujer_dife.css">
+    <link rel="stylesheet" href="/CSS/style_hombres.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
 
     <title>Tenis Hombre New Balance</title>
 </head>
 <body>
     
-    <header>
-
-        <h1 id="h1">Tienda Virtual</h1>
-        <p class="descrip">Esta es una tienda virtual de tenis de marca originales, se realizan envios a todo el pais y se cuenta con 
-            garantia por defecto de fabrica
-        </p>
-    </header>
-
-    <nav id="Nav">
-        <div>
+    <div Class="Nav">
+        <Nav class="N">
             <ul>
-                <li><a href="/Index.html">Inicio</a></li>
+                <li><a class="fa-solid fa-shop"></a></li>
                 <li><a href="#">Mujeres</a>
                     <ul >
-                        <li><a href="#">Nike</a></li>
-                        <li><a href="#">Adidas</a></li>
-                        <li><a href="#">Vans</a></li>
-                        <li><a href="#">Converse</a></li>
-                        <li><a href="#">New Balance</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_nike.html">Nike</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_adias.html">Adidas</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_vans.html">Vans</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_converse.html">Converse</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_newBalance.html">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Hombres</a>
+                <li><a href="/Modulos/Hombres/Parte_hombres_nike.html">Hombres</a>
                 <ul >
-                    <li><a href="/Modulos/Hombres/Parte_hombres.html">Nike</a></li>
+                    <li><a href="/Modulos/Hombres/Parte_hombres_nike.html">Nike</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_adidas.html">Adidas</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_vans.html">Vans</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_converse.html">Converse</a></li>
@@ -45,168 +42,421 @@
             </li>
                 <li><a href="#">Niños</a>
                     <ul >
-                        <li><a href="#">Nike</a></li>
+                        <li><a href="/Modulos/Niños/Nike.html">Nike</a></li>
                         <li><a href="#">Adidas</a></li>
                         <li><a href="#">Vans</a></li>
                         <li><a href="#">Converse</a></li>
                         <li><a href="#">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Login</a>
+    
+        </ul>
+        </Nav>
+            <Nav class="X">
+            <ul>
+               <li><a class="fa-solid fa-percent" href="/Modulos/Ofertas/Hombres.html"></a>
                 <ul >
-                    <li><a href="#">Iniciar Sesion</a></li>
-                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="/Modulos/Ofertas/Hombres.html">Hombres</a></li>
+                    <li><a href="/Modulos/Ofertas/mujeres.html">Mujeres</a></li>
+                    <li><a href="/Modulos/Ofertas/Niños.html">Niños</a></li>
                 </ul>
             </li>
-                <li><a href="#">Carrito</a></li>
+                <li><a class="fa-solid fa-user"></a>
+                <ul >
+                    <li><a href="/Modulos/Login/Registrarse.html">Iniciar Sesion</a></li>
+                    <li><a href="/Modulos/Login/sesion.html">Registrarse</a></li>
+                </ul>
+            </li>
+                <li><a class="fa-solid fa-cart-shopping" href="/Compra.html"></a></li>
             </ul>
-        </div>  
-    </nav>
+        </ul>
+        </Nav>
+    </div> 
 
-    <h2>Tenis destacadas New Balance </h2>
 
-    <section class="tenis">
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Fresh Foam 1080v11</h3>
-                <img class="tenis_image" src="/Imagenes/Fresh Foam 1080v11.png" alt="">
+    <header class="header-new">
 
-                <p class="description-teni">
-                    Nuestras Fresh Foam 1080v11 proporcionan un confort de lujo para largos recorridos.
-                    Esta zapatilla suave presenta una sensación fiable en la planta con tecnología Fresh Foam 
-                    combinada perfectamente con un empeine de tejido elástico suave que ofrece comodidad de 360 grados para altos kilometrajes. 
-                    Esta zapatilla de running para hombre incluye tecnología de talonera Ultra que rodea el talón para un ajuste con excelente 
-                    sujeción que envuelve el pie en puro confort.
-                </p>
+        <h1 id="h1">The Jybad Shop</h1>
+        <br>
+    </header>
 
-                <p class="price">Precio 12000</p>
 
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
+    <div class="contenedor-tenis">
 
+        <div class = "col container">
+            <div class="fig"><img class="ten-img c1" src="/Imagenes/Fresh Foam 1080v11 new balance hombre azul.jpg" alt="">
+                <img class="ten-img c2" src="/Imagenes/Fresh Foam 1080v11 new balance hombre negro.jpg" alt="">
+                <img class="ten-img c3" src="/Imagenes/Fresh Foam 1080v11 new balance hombre rojo.jpg" alt="">
+                <img class="ten-img c4" src="/Imagenes/Fresh Foam 1080v11 new balance hombre.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Fresh Foam 1080v11</h4>
+                        <p class="sub-text">Tenis new balance hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                    <option value="">42</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Esta zapatilla suave presenta una sensación fiable en la planta con tecnología Fresh 
+                            Foam combinada perfectamente con un empeine de tejido elástico suave que ofrece comodidad de 360 grados para altos kilometrajes.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis New Balance 411v2</h3>
-                <img class="tenis_image" src="/Imagenes/411v2 new balance hombre.png" alt="">
-
-                <p class="description-teni">
-                    Nuestras 411v2 para hombre ayudan a moverte cómodamente para afrontar el día. 
-                    Con suela de EVA de contacto con el terreno a través de almohadillas de caucho, 
-                    estas zapatillas para hombre brindan una amortiguación increíblemente ligera al tiempo que una resistencia a la 
-                    abrasión y durabilidad a cada paso. 
-                    El estampado sublimado sobre el empeine remata esta zapatilla con un aspecto elegante para combinar a la perfección funcionalidad y moda.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+    
+        <div class = "col container">
+            <div class="fere"><img class="ten-imgii di caa1" src="/Imagenes/Fresh Foam Arishi v3 new balance hombre gris.jpg" alt="">
+                <img class="ten-imgii di caa2" src="/Imagenes/Fresh Foam Arishi v3 new balance hombre negro.jpg" alt="">
+                <img class="ten-imgii di caa3" src="/Imagenes/Fresh Foam Arishi v3 new balance hombre negroo.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Fresh Foam Arishi v3</h4>
+                        <p class="sub-text">Tenis new balance hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">38</option>
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            La Fresh Foam Arishi v3 completamente nueva y renovada impulsa un rendimiento versátil 
+                            con una amortiguación de la entresuela de Fresh Foam en la parte anterior.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Fresh Foam X 860v12</h3>
-                <img class="tenis_image" src="/Imagenes/Fresh Foam X 860v12 new blance Hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    La zapatilla de running para hombre 860v12 se ha creado para proporcionar una sujeción y confort duraderos. 
-                    Una entresuela Fresh Foam proporciona una amortiguación muy suave, mientras que la parte media de doble intensidad y 
-                    el bordado estratégico del empeine ofrecen una sujeción fiable, kilómetro tras kilómetro.
-                </p>
-                <br>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+        <div class = "col container">
+            <div><img class="ten-imgi ca1" src="/Imagenes/Fresh Foam 860v11 new balance hombre gris.jpg" alt="">
+                <img class="ten-imgi ca2" src="/Imagenes/Fresh Foam 860v11 new balance hombre griss.jpg" alt="">
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Fresh Foam 860v11</h4>
+                        <p class="sub-text">Tenis new balance hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">35</option>
+                                    <option value="">36</option>
+                                    <option value="">37</option>
+                                    <option value="">39</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Creada para los corredores que buscan estabilidad, nuestra zapatilla 
+                            para correr Fresh Foam 860v11 para hombre combina perfectamente la amortiguación técnica con una sujeción NB clásica.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Fresh Foam 880v11</h3>
-                <img class="tenis_image" src="/Imagenes/Fresh Foam 880v11 new balance hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    Nuestra Fresh Foam 880v11 para hombre está diseñada para el corredor que busca una zapatilla de correr cómoda y 
-                    eficaz que ofrezca un buen rendimiento diario. Diseñada para proporcionar confort, la entresuela Fresh Foam proporciona 
-                    una pisada de la planta cómoda, mientras que la suela fiable permite disfrutar de la máxima suavidad. 
-                    Gracias a la malla jacquard doble técnica que permite un ajuste suave y no te limita al correr, 
-                    tus pies te agradecerán que uses esta zapatilla.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+        <div class = "col container">
+            <div><img class="ten-imgi ca1" src="/Imagenes/Fresh Foam X Hierro v7 new balance hombre amarillo.jpg" alt="">
+                <img class="ten-imgi ca2" src="/Imagenes/Fresh Foam X Hierro v7 new balance hombre morado.jpg" alt="">
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Fresh Foam X Hierro v7</h4>
+                        <p class="sub-text">Tenis new balance hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">35</option>
+                                    <option value="">36</option>
+                                    <option value="">37</option>
+                                    <option value="">39</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Nos encanta salir de aventura al aire libre, pero la naturaleza ofrece mucho más que aire puro y vistas panorámicas. 
+                            Terrenos irregulares, raíces, tierra y la humedad son retos a los que debe enfrentarse el calzado especializado.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Fresh Foam Arishi Trail GTX </h3>
-                <img class="tenis_image" src="/Imagenes/Fresh Foam Arishi Trail GTX new balance hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    Equipada con tecnología GORE-TEX® Invisible Fit impermeable, la zapatilla de correr para hombre Fresh Foam Arishi Trail 
-                    Goretex se ha creado para resistir tus aventuras de trail con cualquier meteorología. 
-                    La entresuela FRESH FOAM ligera ofrece amortiguación para mayor sujeción y un confort inigualable. 
-                    La suela AT TREAD ofrece tracción óptima en cualquier entorno, mientras que la punta reforzada puede ayudar a 
-                    reducir el daño en los dedos por impactos con raíces o piedras.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+        <div class = "col container">
+            <div class="fere"><img class="ten-imgii di caa1" src="/Imagenes/Fresh Foam Roav v2 new balance hombre azul.jpg" alt="">
+                <img class="ten-imgii di caa2" src="/Imagenes/Fresh Foam Roav v2 new balance hombre gris-negro.jpg" alt="">
+                <img class="ten-imgii di caa3" src="/Imagenes/Fresh Foam Roav v2 new balance hombre gris.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Fresh Foam Roav v2</h4>
+                        <p class="sub-text">Tenis new balance hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">38</option>
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Tanto si vas al gimnasio como si haces recados, 
+                            lleva tu estilo casual a un nuevo nivel con las zapatillas deportivas para hombre Fresh Foam Roav v2.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Fresh Foam Hierro v6e</h3>
-                <img class="tenis_image" src="/Imagenes/Fresh Foam Hierro v6 new balance hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    Acumula kilómetros en las pistas con nuestras Fresh Foam Hierro v6 robustas. Estas zapatillas de running para 
-                    hombre presentan una entresuela Fresh Foam ligera que ayuda a amortiguar la pisada sobre terreno irregular. 
-                    Una suela Vibram® probada proporciona tracción y durabilidad. Las fibras de TPU tejidas en el empeine en 
-                    puntos clave mejoran la estructura de esta zapatilla para hombre y añaden protección a la puntera, 
-                    mientras que las perforaciones con láser favorecen la transpirabilidad.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-                
+    
+    
+        <div class = "col container">
+            <div class="fig"><img class="ten-img c1" src="/Imagenes/Fresh Foam 880v11 new balance hombre amarillo.jpg" alt="">
+                <img class="ten-img c2" src="/Imagenes/Fresh Foam 880v11 new balance hombre azul.jpg" alt="">
+                <img class="ten-img c3" src="/Imagenes/Fresh Foam 880v11 new balance hombre blanco.jpg" alt="">
+                <img class="ten-img c4" src="/Imagenes/Fresh Foam 880v11 new balance hombre verde.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Fresh Foam 880v11</h4>
+                        <p class="sub-text">Tenis new balance hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                    <option value="">42</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Diseñada para disfrutar de confort, la entresuela Fresh Foam proporciona una pisada muy cómoda, 
+                            mientras que la malla técnica doble de jacquard permite un ajuste intuitivo que no te limitará.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-    </section>
+        </div>
 
 </body>
 </html>

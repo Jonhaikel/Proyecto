@@ -8,35 +8,32 @@
     <link rel="stylesheet" href="/CSS/hombres.css">
     <link rel="stylesheet" href="/CSS/Style.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
+    <link rel="stylesheet" href="/CSS/style_mujer_dife.css">
+    <link rel="stylesheet" href="/CSS/style_hombres.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
 
     <title>Tenis Hombre converse</title>
 </head>
 <body>
 
-    <header>
-
-        <h1 id="h1">Tienda Virtual</h1>
-        <p class="descrip">Esta es una tienda virtual de tenis de marca originales, se realizan envios a todo el pais y se cuenta con 
-            garantia por defecto de fabrica
-        </p>
-    </header>
-
-    <nav id="Nav">
-        <div>
+    <div Class="Nav">
+        <Nav class="N">
             <ul>
-                <li><a href="/Index.html">Inicio</a></li>
+                <li><a class="fa-solid fa-shop"></a></li>
                 <li><a href="#">Mujeres</a>
                     <ul >
-                        <li><a href="#">Nike</a></li>
-                        <li><a href="#">Adidas</a></li>
-                        <li><a href="#">Vans</a></li>
-                        <li><a href="#">Converse</a></li>
-                        <li><a href="#">New Balance</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_nike.html">Nike</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_adias.html">Adidas</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_vans.html">Vans</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_converse.html">Converse</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_newBalance.html">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Hombres</a>
+                <li><a href="/Modulos/Hombres/Parte_hombres_nike.html">Hombres</a>
                 <ul >
-                    <li><a href="/Modulos/Hombres/Parte_hombres.html">Nike</a></li>
+                    <li><a href="/Modulos/Hombres/Parte_hombres_nike.html">Nike</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_adidas.html">Adidas</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_vans.html">Vans</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_converse.html">Converse</a></li>
@@ -45,167 +42,421 @@
             </li>
                 <li><a href="#">Niños</a>
                     <ul >
-                        <li><a href="#">Nike</a></li>
+                        <li><a href="/Modulos/Niños/Nike.html">Nike</a></li>
                         <li><a href="#">Adidas</a></li>
                         <li><a href="#">Vans</a></li>
                         <li><a href="#">Converse</a></li>
                         <li><a href="#">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Login</a>
+    
+        </ul>
+        </Nav>
+            <Nav class="X">
+            <ul>
+               <li><a class="fa-solid fa-percent" href="/Modulos/Ofertas/Hombres.html"></a>
                 <ul >
-                    <li><a href="#">Iniciar Sesion</a></li>
-                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="/Modulos/Ofertas/Hombres.html">Hombres</a></li>
+                    <li><a href="/Modulos/Ofertas/mujeres.html">Mujeres</a></li>
+                    <li><a href="/Modulos/Ofertas/Niños.html">Niños</a></li>
                 </ul>
             </li>
-                <li><a href="#">Carrito</a></li>
+                <li><a class="fa-solid fa-user"></a>
+                <ul >
+                    <li><a href="/Modulos/Login/Registrarse.html">Iniciar Sesion</a></li>
+                    <li><a href="/Modulos/Login/sesion.html">Registrarse</a></li>
+                </ul>
+            </li>
+                <li><a class="fa-solid fa-cart-shopping" href="/Compra.html"></a></li>
             </ul>
-        </div>  
-    </nav>
+        </ul>
+        </Nav>
+    </div> 
 
-    <h2>Tenis destacadas converse </h2>
 
-    <section class="tenis">
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Chuck 70S Hi</h3>
-                <img class="tenis_image" src="/Imagenes/Chuck 70S Hi converse hombre.jpg" alt="">
+    <header class="header-conv">
 
-                <p class="description-teni">
-                    EXPRESIÓN PREMIUM. <br>
-                    En 1970, las Chuck Taylor All Star se convirtieron en una de los mejores calzados de baloncesto de todos los tiempos.
-                    El Chuck 70 celebra ese legado al reunir detalles inspirados en archivos con actualizaciones modernas de comodidad.
-                    El acolchado de la plantilla Ortholite te brinda apoyo bajo los pies,
-                    mientras que las costuras de lengüeta con alas ayudan a mantenerlo cómodamente en su lugar.
-                </p>
+        <h1 id="h1">The Jybad Shop</h1>
+        <br>
+    </header>
 
-                <p class="price">Precio 12000</p>
 
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
+    <div class="contenedor-tenis">
 
+        <div class = "col container">
+            <div class="fig"><img class="ten-img c1" src="/Imagenes/Chuck 70 Vintage Canvas converse hombre azul-oscuro.jpg" alt="">
+                <img class="ten-img c2" src="/Imagenes/Chuck 70 Vintage Canvas converse hombre azul.jpg" alt="">
+                <img class="ten-img c3" src="/Imagenes/Chuck 70 Vintage Canvas converse hombre gris.jpg" alt="">
+                <img class="ten-img c4" src="/Imagenes/Chuck 70 Vintage Canvas converse hombre.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Chuck 70 Vintage Canvas</h4>
+                        <p class="sub-text">Tenis converse hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                    <option value="">42</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            La mediasuela brillante en color garza y el parche del tobillo con la estrella resaltan el estilo vintage e 
+                            icónico de las zapatillas, que se ha actualizado con un tono clásico y lona reciclada premium.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Chuck Taylor Hi</h3>
-                <img class="tenis_image" src="/Imagenes/Chuck Taylor Hi converse hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    EL ÍCONO DE TODOS LOS DÍAS. <br>
-                    Ya conoces los detalles que comenzaron en la cancha de baloncesto: esa parte superior de lona, 
-                    la suela con patrón de rombos y las clásicas rayas de la media suela.
-                    Ahora, hemos actualizado el ícono con nuevos colores frescos en al menos 50% de 
-                    algodón reciclado y una proporción cercana al 50% de algodón virgen en la parte superior
-                </p>
-                <br>
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+    
+        <div class = "col container">
+            <div class="fig"><img class="ten-img c1" src="/Imagenes/Chuck Taylor All Star converse hombre blanco.jpg" alt="">
+                <img class="ten-img c2" src="/Imagenes/Chuck Taylor All Star converse hombre cafe.jpg" alt="">
+                <img class="ten-img c3" src="/Imagenes/Chuck Taylor All Star converse hombre negro.jpg" alt="">
+                <img class="ten-img c4" src="/Imagenes/Chuck Taylor All Star converse hombre verde.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Chuck Taylor All Star</h4>
+                        <p class="sub-text">Tenis converse hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                    <option value="">42</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Sí, podríamos compartir mil y una historias, pero la historia más importante no es la nuestra, es la tuya. 
+                            Lo fundamental es cómo y dónde luces tus Chuck. El gran legado estará siempre ahí, pero el resto depende de ti.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Chuck 70 Converse X Rick Owens Hi</h3>
-                <img class="tenis_image" src="/Imagenes/Chuck 70 DRKSHDW Converse X Rick Owens Hi converse hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    El diseño subversivo celebra y distorsiona las líneas de nuestra mejor silueta, 
-                    literalmente ampliando las posibilidades con una lengüeta alargada y puntera con la firma de DRKSHDW.
-                    La parte superior de sarga de algodón y los acabados refinados añaden brillo y 
-                    sofisticación de alta costura al aspecto vanguardista y las características exageradas del diseño.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+        <div class = "col container">
+            <div class="fere"><img class="ten-imgii di caa1" src="/Imagenes/Chuck Taylor All Star CX Stretch Canvas converse hombre azul.jpg" alt="">
+                <img class="ten-imgii di caa2" src="/Imagenes/Chuck Taylor All Star CX Stretch Canvas converse hombre blanco.jpg" alt="">
+                <img class="ten-imgii di caa3" src="/Imagenes/Chuck Taylor All Star CX Stretch Canvas converse hombre cafe.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Chuck Taylor All Star CX Stretch Canvas</h4>
+                        <p class="sub-text">Tenis converse hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">38</option>
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            La lona elástica y la espuma CX de las Chuck Taylor All Star CX aporta comodidad artesanal. El ribete translúcido 
+                            te abre las puertas a la ligereza y la reactividad de la mediasuela de espuma CX, que te aporta comodidad todo el tiempo.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Chuck Taylor All Star CX Hi</h3>
-                <img class="tenis_image" src="/Imagenes/Chuck Taylor All Star CX Hi converse hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    CÓMODO Y PRÁCTICO. <br>
-                    La comodidad artesanal comienza con lona elástica y espuma CX en el Chuck Taylor All Star CX. 
-                    La cinta de foxing translúcida le brinda una ventana a la mediasuela de espuma CX liviana y 
-                    receptiva que lo ayuda a mantenerse cómodo todo el día.
-                </p>
-                <br>
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+        <div class = "col container">
+            <div><img class="ten-imgi ca1" src="/Imagenes/Chuck 70 Crafted Canvas converse hombre blanco.jpg" alt="">
+                <img class="ten-imgi ca2" src="/Imagenes/Chuck 70 Crafted Canvas converse hombre.jpg" alt="">
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Chuck 70 Crafted Canvas</h4>
+                        <p class="sub-text">Tenis converse hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">35</option>
+                                    <option value="">36</option>
+                                    <option value="">37</option>
+                                    <option value="">39</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Las eternas Chuck 70 reciben una actualización inspirada en su historia en la cancha. 
+                            Los toques de ante en los ojales y la zona del tobillo aportan más textura y durabilidad y se adelantan al estilo Color Block.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Chuck Taylor All Star CX Mid </h3>
-                <img class="tenis_image" src="/Imagenes/Chuck Taylor All Star CX Mid converse hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    EL PASADO HECHO PRESENTE. <br>
-                    El ícono en la cancha de 1986, completamente transformado para lo que sigue.
-                    Los bloques de color inspirados en el deporte en la parte superior de cuero de primera calidad se 
-                    combinan con el cuello de espuma de poliuretano y la suela exterior de caucho envuelta para una máxima comodidad.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+        <div class = "col container">
+            <div><img class="ten-imgi ca1" src="/Imagenes/Trek Chuck 70 converse hombre blanco.jpg" alt="">
+                <img class="ten-imgi ca2" src="/Imagenes/Trek Chuck 70 converse hombre negro.jpg" alt="">
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Trek Chuck 70</h4>
+                        <p class="sub-text">Tenis converse hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">35</option>
+                                    <option value="">36</option>
+                                    <option value="">37</option>
+                                    <option value="">39</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Nos hemos inspirado en el estilo al aire libre para diseñar estas Chuck 70 premium con comodidad y un estilo ideal para el senderismo. 
+                            El lateral de goma más alto ofrece protección contra el mal tiempo y la suela con agarre aumenta la tracción.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Run Star Hike Hi</h3>
-                <img class="tenis_image" src="/Imagenes/Run Star Hike Hi converse hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    AÑO NUEVO, NUEVA CAMINATA DE ESTRELAS. <br>
-                    La Run Star Hike se remezcla para el Año Nuevo Chino. 
-                    Una lengüeta y tacón de satén en un nuevo anillo de patrón de agua y tigre.
-                     Además, los elementos patrimoniales y los sutiles detalles bordados crean un estilo que hace más con menos.
-                </p>
-                
-                <br>
-                <br>
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-                
+    
+    
+        <div class = "col container">
+            <div class="fere"><img class="ten-imgii di caa1" src="/Imagenes/Run Star Hike Smoked Canvas converse hombre blanco.jpg" alt="">
+                <img class="ten-imgii di caa2" src="/Imagenes/Run Star Hike Smoked Canvas converse hombre gris.jpg" alt="">
+                <img class="ten-imgii di caa3" src="/Imagenes/Run Star Hike Smoked Canvas converse hombre negro.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">Run Star Hike Smoked Canvas</h4>
+                        <p class="sub-text">Tenis converse hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">38</option>
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Detalles como un diseño de algodón, una puntera de goma y un parche del tobillo Chuck Taylor para 
+                            mantenerse fiel a las originales y una plataforma moldeada, una suela exterior de dos tonos y un talón redondeado para una sensación futurista.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-    </section>
+        </div>
     
 </body>
 </html>
