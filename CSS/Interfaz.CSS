@@ -1,0 +1,27 @@
+
+h2{color:rgb(0, 238, 255);}
+
+label{color: rgb(0, 238, 255);}
+
+.Flexbox{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+
+}
+
+
+table{
+   
+        font-style:italic;
+        font-weight:bold;
+        font: size 1px;
+        
+        font-family:'Helvetica','Verdana','Monaco',sans-serif;
+      
+}
+#colores{
+    color:hsl(0, 100%, 50%)
+}
