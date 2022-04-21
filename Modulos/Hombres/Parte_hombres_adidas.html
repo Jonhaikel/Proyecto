@@ -8,35 +8,32 @@
     <link rel="stylesheet" href="/CSS/hombres.css">
     <link rel="stylesheet" href="/CSS/Style.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
+    <link rel="stylesheet" href="/CSS/style_mujer_dife.css">
+    <link rel="stylesheet" href="/CSS/style_hombres.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
 
     <title>Tenis hombre adidas</title>
 </head>
 <body>
 
-    <header>
-
-        <h1 id="h1">Tienda Virtual</h1>
-        <p class="descrip">Esta es una tienda virtual de tenis de marca originales, se realizan envios a todo el pais y se cuenta con 
-            garantia por defecto de fabrica
-        </p>
-    </header>
-
-    <nav class="Nav">
-        <div>
+    <div Class="Nav">
+        <Nav class="N">
             <ul>
-                <li><a href="/Index.html">Inicio</a></li>
+                <li><a class="fa-solid fa-shop"></a></li>
                 <li><a href="#">Mujeres</a>
                     <ul >
-                        <li><a href="#">Nike</a></li>
-                        <li><a href="#">Adidas</a></li>
-                        <li><a href="#">Vans</a></li>
-                        <li><a href="#">Converse</a></li>
-                        <li><a href="#">New Balance</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_nike.html">Nike</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_adias.html">Adidas</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_vans.html">Vans</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_converse.html">Converse</a></li>
+                        <li><a href="/Modulos/Mujeres/Parte_mujeres_newBalance.html">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Hombres</a>
+                <li><a href="/Modulos/Hombres/Parte_hombres_nike.html">Hombres</a>
                 <ul >
-                    <li><a href="/Modulos/Hombres/Parte_hombres.html">Nike</a></li>
+                    <li><a href="/Modulos/Hombres/Parte_hombres_nike.html">Nike</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_adidas.html">Adidas</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_vans.html">Vans</a></li>
                     <li><a href="/Modulos/Hombres/Parte_hombres_converse.html">Converse</a></li>
@@ -45,165 +42,423 @@
             </li>
                 <li><a href="#">Niños</a>
                     <ul >
-                        <li><a href="#">Nike</a></li>
+                        <li><a href="/Modulos/Niños/Nike.html">Nike</a></li>
                         <li><a href="#">Adidas</a></li>
                         <li><a href="#">Vans</a></li>
                         <li><a href="#">Converse</a></li>
                         <li><a href="#">New Balance</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Login</a>
+    
+        </ul>
+        </Nav>
+            <Nav class="X">
+            <ul>
+               <li><a class="fa-solid fa-percent" href="/Modulos/Ofertas/Hombres.html"></a>
                 <ul >
-                    <li><a href="#">Iniciar Sesion</a></li>
-                    <li><a href="#">Registrarse</a></li>
+                    <li><a href="/Modulos/Ofertas/Hombres.html">Hombres</a></li>
+                    <li><a href="/Modulos/Ofertas/mujeres.html">Mujeres</a></li>
+                    <li><a href="/Modulos/Ofertas/Niños.html">Niños</a></li>
                 </ul>
             </li>
-                <li><a href="#">Carrito</a></li>
+                <li><a class="fa-solid fa-user"></a>
+                <ul >
+                    <li><a href="/Modulos/Login/Registrarse.html">Iniciar Sesion</a></li>
+                    <li><a href="/Modulos/Login/sesion.html">Registrarse</a></li>
+                </ul>
+            </li>
+                <li><a class="fa-solid fa-cart-shopping" href="/Compra.html"></a></li>
             </ul>
-        </div>  
-    </nav>
-
-    <h2>Tenis destacadas Adidas </h2>
-
-    <section class="tenis">
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Fluidstreet Azul</h3>
-                <img class="tenis_image" src="/Imagenes/Tenis_Fluidstreet_Azul_adidas_hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    TENIS LIGEROS CON AMORTIGUACIÓN OPTIMIZADA <br>
-                    No importa lo que te motiva a hacerlo o la distancia que recorres. Estos tenis de running adidas ofrecen estabilidad,
-                     sujeción y amortiguación a tus pies con cada uno de tus pasos. El exterior de malla transpirable es ligero y fresco.
-                      Siente el viento en tus pies y encuentra tu ritmo ideal de carrera.  
-                </p>
-
-                <br>
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
-            </div>
-        </div>
+        </ul>
+        </Nav>
+    </div> 
 
 
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Ultraboost web DNA</h3>
-                <img class="tenis_image" src="/Imagenes/Tenis_Ultraboost_Web_DNA_Blanco_adidas_hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    TENIS ESTILIZADOS INSPIRADOS EN LA TECNOLOGÍA DEL RUNNING <br>
-                    La comodidad que caracteriza al running se combina con el estilo descomplicado en estos tenis adidas Ultraboost Web DNA.
-                     El diseño entrelazado en la mediasuela y la suela revela la amortiguación Boost de retorno de energía que llevan dentro.
-                    El exterior de adidas Primeknit es elástico y brinda soporte.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
-            </div>
-        </div>
+    <header class="header-ad">
         
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis Asweetrain</h3>
-                <img class="tenis_image" src="/Imagenes/Tenis_Asweetrain_Negro_adidas_hombre.jpg" alt="">
+        <h1 id="h1">The Jybad Shop</h1>
+        <br>
+    </header>
 
-                <p class="description-teni">
-                    TENIS DE ENTRENAMIENTO CON AMORTIGUACIÓN, ESTILO Y COMODIDAD <br>
-                    Es viernes en la noche. Todos salieron o ya están durmiendo. Y sin embargo tú aún estás en el gimnasio.
-                     Como siempre. Estos tenis adidas para entrenar te ayudan a lograr tus objetivos, 
-                     incluso cuando crees que ya no puedes más. La amortiguación ligera en la mediasuela se encarga de imprimirle suavidad a cada pisada.
-                </p>
 
-                <p class="price">Precio 12000</p>
+    <div class="contenedor-tenis">
 
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+        <div class = "col container">
+            <div class="fig"><img class="ten-img c1" src="/Imagenes/ZAPATILLA DURAMO SL adidas hombre blanco.jpg" alt="">
+                <img class="ten-img c2" src="/Imagenes/ZAPATILLA DURAMO SL adidas hombre negro-blanco.jpg" alt="">
+                <img class="ten-img c3" src="/Imagenes/ZAPATILLA DURAMO SL adidas hombre negro.jpg" alt="">
+                <img class="ten-img c4" src="/Imagenes/ZAPATILLA DURAMO SL adidas hombre.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">ZAPATILLA DURAMO SL 2.0</h4>
+                        <p class="sub-text">Tenis adidas hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                    <option value="">42</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Nada te aparta de tus objetivos. Esta zapatilla de running adidas presenta un diseño versátil perfecto 
+                            para tus carreras diarias. La mediasuela adidas LIGHTMOTION proporciona amortiguación y ligereza a tus pies.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis adiadas Gamecourt</h3>
-                <img class="tenis_image" src="/Imagenes/Tenis_GameCourt_Gris_adidas_Hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    TENIS CÓMODOS PARA DOMINAR EN LA CANCHA <br>
-                    Eleva tu juego sin salir de tu zona de confort. El exterior de malla transpirable de estos tenis Gamecourt para tenis mantienen tus pies frescos.
-                     Los refuerzos de TPU ayudan a amoldarlos a la forma de tu pie para un ajuste cómodo y una mayor sensación de sujeción.
-                      La mediasuela Cloudfoam hace más suave cada paso para que puedas aumentar la intensidad con comodidad.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+    
+        <div class = "col container">
+            <div><img class="ten-imgi ca1" src="/Imagenes/ZAPATILLA DE GOLF TECH RESPONSE 2.0 adidas hombre blanco.jpg" alt="">
+                <img class="ten-imgi ca2" src="/Imagenes/ZAPATILLA DE GOLF TECH RESPONSE 2.0 adidas hombre negro.jpg" alt="">
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">ZAPATILLA DE GOLF TECH RESPONSE 2.0</h4>
+                        <p class="sub-text">Tenis adidas hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">35</option>
+                                    <option value="">36</option>
+                                    <option value="">37</option>
+                                    <option value="">39</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Esta zapatilla de golf te ofrece un mejor contacto con el suelo y garantiza una pisada cómoda y segura. 
+                            Su horma ancha aporta ligereza y estabilidad del primer al último hoyo.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis NMD_R1 spectoo boba fett </h3>
-                <img class="tenis_image" src="/Imagenes/Tenis_NMD_R1_Spectoo_Boba_Fett_Negro_adidas_hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    INNOVACIÓN EN CONTINUA EVOLUCIÓN <br>
-                    Haz una entrada triunfal en cualquier palacio con esta elegante y futurista NMD_R1 que evoca la armadura de Boba Fett,
-                     el famoso personaje de Star Wars™. Creados en colaboración con Disney y Lucasfilm, 
-                     estos tenis de inspiración deportiva te impulsa a través de la galaxia con total comodidad y estilo.
-                </p>
-
-                <br>
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-
+    
+    
+        <div class = "col container">
+            <div class="fere"><img class="ten-imgii di caa1" src="/Imagenes/ZAPATILLA KAPTIR 2.0 adidas hombre gris.jpg" alt="">
+                <img class="ten-imgii di caa2" src="/Imagenes/ZAPATILLA KAPTIR 2.0 adidas hombre negro.jpg" alt="">
+                <img class="ten-imgii di caa3" src="/Imagenes/ZAPATILLA KAPTIR 2.0 adidas hombre negro-gris.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">ZAPATILLA KAPTIR 2.0</h4>
+                        <p class="sub-text">Tenis adidas hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">38</option>
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            El confort es imprescindible para correr, pero el estilo también es importante. Esta zapatilla 
+                            adidas inspirada en el calzado de running presenta una mediasuela Cloudfoam esculpida que aporta comodidad a tu pisada.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="col colum-order">
-            <div class="ten">
-                <h3>Tenis NMD_R1 primeblue</h3>
-                <img class="tenis_image" src="/Imagenes/Tenis_NMD_R1_Primeblue_Blanco_adidas_hombre.jpg" alt="">
-
-                <p class="description-teni">
-                    TENIS PROGRESIVOS CON RAÍCES EN EL RUNNING <br>
-                    Empaca tu mochila, ata los cordones y sal a la calle. Las aventuras urbanas están a la vuelta de la esquina con estos tenis NMD_R1.
-                     Una actualización de un afamado modelo de running de los años 80 extraído de los archivos de adidas, 
-                     este modelo moderno incorpora un exterior de exterior suave y elástico y amortiguación Boost que te devuelve energía para una comodidad que dura todo el día.
-                </p>
-
-                <p class="price">Precio 12000</p>
-
-                <form action="">
-                    <input type="number" placeholder="Cantidad" class="canti">
-                    <input type="submit" value="Agregar al carrito" class="button">
-                </form>
-                
+    
+    
+        <div class = "col container">
+            <div class="fig"><img class="ten-img c1" src="/Imagenes/ZAPATILLA VL COURT 2.0 adidas hombre azul.jpg" alt="">
+                <img class="ten-img c2" src="/Imagenes/ZAPATILLA VL COURT 2.0 adidas hombre blanco.jpg" alt="">
+                <img class="ten-img c3" src="/Imagenes/ZAPATILLA VL COURT 2.0 adidas hombre gris.jpg" alt="">
+                <img class="ten-img c4" src="/Imagenes/ZAPATILLA VL COURT 2.0 adidas hombre negro.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">ZAPATILLA VL COURT 2.0</h4>
+                        <p class="sub-text">Tenis adidas hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">38</option>
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            La emblemática puntera en forma de T salta de las pistas de tenis a la calle. 
+                            Esta zapatilla presenta una parte superior de ante y una suela de goma. El forro textil le aporta ligereza y comodidad.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
-    </section>
+    
+    
+        <div class = "col container">
+            <div class="fig"><img class="ten-img c1" src="/Imagenes/ZAPATILLA RUN FALCON 2.0 hombre adidas azul.jpg" alt="">
+                <img class="ten-img c2" src="/Imagenes/ZAPATILLA RUN FALCON 2.0 hombre adidas blanco.jpg" alt="">
+                <img class="ten-img c3" src="/Imagenes/ZAPATILLA RUN FALCON 2.0 hombre adidas gris-naranja.jpg" alt="">
+                <img class="ten-img c4" src="/Imagenes/ZAPATILLA RUN FALCON 2.0 hombre adidas gris.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">ZAPATILLA RUN FALCON 2.0</h4>
+                        <p class="sub-text">Tenis adidas hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                    <option value="">42</option>
+                                    <option value="">43</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Presenta una parte superior de malla que favorece la ventilación y te proporciona un confort duradero. 
+                            La suela de goma resistente al desgaste te ofrece una pisada estable para que nada te detenga.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class = "col container">
+            <div class="fere"><img class="ten-imgii di caa1" src="/Imagenes/ZAPATILLA ADVANTAGE BASE adidas hombre blanco.jpg" alt="">
+                <img class="ten-imgii di caa2" src="/Imagenes/ZAPATILLA ADVANTAGE BASE adidas hombre cafe.jpg" alt="">
+                <img class="ten-imgii di caa3" src="/Imagenes/ZAPATILLA ADVANTAGE BASE adidas hombre negro.jpg" alt="">
+            
+            </div>
+            <div class = "content">
+                <div class = "box-one">
+                    <div>
+                        <h4 class ="text">ZAPATILLA ADVANTAGE BASE</h4>
+                        <p class="sub-text">Tenis adidas hombre</p>
+                    </div>
+                    <div>
+                        <p class="sub-text">
+                            <span>Precio</span>
+                        </p>
+                      <h4 class="text" id="txt">$60</h4>
+    
+                    </div>
+                </div>
+                <div>
+                    <div class="box-two" >
+    
+    
+                        <div class="talla-color">
+                            <div class="clas-talla">
+                                <label class="color" for="color">Color</label>
+                                <select class="colors" name="color" id="topic">
+                                    <option value="">Rojo</option>
+                                    <option value="">Gris</option>
+                                    <option value="">Negro</option>
+                                    <option value="">Azul</option>
+                                </select>
+                            </div>
+    
+                            <div class="clas-color">
+                                <label class="talla" for="Talla">Talla</label>
+                                <select class="tallas" name="Talla" id="topic">
+                                    <option value="">38</option>
+                                    <option value="">39</option>
+                                    <option value="">40</option>
+                                    <option value="">41</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <h4 class="text">Descripcion</h4>
+                        <p class="sub-text">
+                            Un clásico que combina con todo. Esta zapatilla adapta el estilo del tenis para las calles. 
+                            Presenta una parte superior de nobuk sintético con las míticas 3 bandas perforadas.
+                        </p>
+                        <form action="">
+                            <input type="number" placeholder="Cantidad" class="canti" required>
+                            <button class="shop"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 
+                                24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg> <strong class="text-shop">Agregar a carrito</strong></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     
 </body>
 </html>

@@ -26,8 +26,40 @@ html{
     box-sizing: border-box;
 }
 
-header{
+/*.header{
     background-color: antiquewhite;
+    background-image: url(/Imagenes/Fondo\ tenis\ mujer4.jpg);
+    background-size: 20rem;
+}*/
+.header-ad{
+    background-color: antiquewhite;
+    background-image: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 20%)), url(/Imagenes/fondo\ tenis\ hombre\ adidas.gif);
+    background-size: 14rem;
+}
+.header-conv{
+    background-color: antiquewhite;
+    background-image: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 20%)), url(/Imagenes/fondo\ tenis\ hombre\ converse.gif);
+    background-size: 14rem;
+}
+.header-new{
+    background-color: black;
+    background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(/Imagenes/fondo\ tenis\ hombre\ new\ balance.gif);
+    background-size: 14rem;
+}
+.header-vans{
+    background-color: black;
+    background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(/Imagenes/fondo\ tenis\ hombre\ vans.gif);
+    background-size: 14rem;
+}
+.header-nike{
+    background-color: black;
+    background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(/Imagenes/Fondo\ tenis\ mujer2.jpg);
+    background-size: 16rem;
+}
+#h1{
+    color: aquamarine;
+    font-size: 5rem;
+    text-align: center;
 }
 
 .contenedor-tenis{

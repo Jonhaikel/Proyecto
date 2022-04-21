@@ -33,7 +33,7 @@ html{
 
 /*.button{
     padding: 0.5rem;
-    background-color: var(--primario);
+    background-color: #ffc107;
     margin-left: 10rem;
     margin-bottom: 2rem;
 
@@ -78,11 +78,7 @@ background: linear-gradient(90deg, rgba(28,150,137,0.7710434515603116) 45%, rgba
 }
 
 
-#h1{
-    color: black;
-    font-size: 5rem;
-    text-align: center;
-}
+
 
 .descrip{
     color: black;
