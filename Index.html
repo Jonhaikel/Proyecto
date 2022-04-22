@@ -7,25 +7,153 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="./CSS/Style.css">
     <link rel="stylesheet" href="./CSS/Normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <header>
-       <h1>Titulo de pagina</h1>
-   </header>
-    
-<nav id="Nav">
-    <div>
-        <ul id="Acceso">
-            <li><a href="">Inicio</a></li>
-            <li><a href=""></a>Mujeres</li>
-            <li><a href=""></a>Hombres</li>
-            <li><a href=""></a>Niños</li>
-            <li><a href=""></a>Ofertas</li>
-            <li><a href=""></a>Login</li>
-            <li><a href=""></a>Carrito</li>
-        </ul>
-    </div>
+<div Class="Nav">
+    <Nav class="N">
+        <ul>
+            <li><a class="fa-solid fa-shop"></a></li>
+            <li><a href="#">Mujer</a>
+                <ul >
+                    <li><a href="/Modulos/Mujeres/Parte_mujeres_nike.html">Nike</a></li>
+                    <li><a href="/Modulos/Mujeres/Parte_mujeres_adias.html">Adidas</a></li>
+                    <li><a href="/Modulos/Mujeres/Parte_mujeres_vans.html">Vans</a></li>
+                    <li><a href="/Modulos/Mujeres/Parte_mujeres_converse.html">Converse</a></li>
+                    <li><a href="/Modulos/Mujeres/Parte_mujeres_newBalance.html">New Balance</a></li>
+                </ul>
+            </li>
+            <li><a href="/Modulos/Hombres/Parte_hombres.html">Hombres</a>
+            <ul >
+                <li><a href="/Modulos/Hombres/Parte_hombres_nike.html">Nike</a></li>
+                <li><a href="/Modulos/Hombres/Parte_hombres_adidas.html">Adidas</a></li>
+                <li><a href="/Modulos/Hombres/Parte_hombres_vans.html">Vans</a></li>
+                <li><a href="/Modulos/Hombres/Parte_hombres_converse.html">Converse</a></li>
+                <li><a href="/Modulos/Hombres/Parte_hombres_newbalance.html">New Balance</a></li>
+            </ul>
+        </li>
+            <li><a href="#">Niños</a>
+                <ul >
+                    <li><a href="/Modulos/Niños/Niños_Nike.html">Nike</a></li>
+                    <li><a href="/Modulos/Niños/Niños_adidas.html">Adidas</a></li>
+                    <li><a href="/Modulos/Niños/Niños_vans.html">Vans</a></li>
+                    <li><a href="/Modulos/Niños/Niños_converse.html">Converse</a></li>
+                    <li><a href="/Modulos/Niños/Niños_newBalance.html">New Balance</a></li>
+                </ul>
+            </li>
 
-</nav>
+    </ul>
+    </Nav>
+        <Nav class="X">
+        <ul>
+           <li><a class="fa-solid fa-percent" href="/Modulos/Ofertas/Hombres.html"></a>
+            <ul >
+                <li><a href="/Modulos/Ofertas/Hombres.html">Hombres</a></li>
+                <li><a href="/Modulos/Ofertas/mujeres.html">Mujeres</a></li>
+                <li><a href="/Modulos/Ofertas/Niños.html">Niños</a></li>
+            </ul>
+        </li>
+            <li><a class="fa-solid fa-user"></a>
+            <ul >
+                <li><a href="/Modulos/Login/Registrarse.html">Iniciar Sesion</a></li>
+                <li><a href="/Modulos/Login/sesion.html">Registrarse</a></li>
+            </ul>
+        </li>
+            <li><a class="fa-solid fa-cart-shopping" href="/Modulos/Carrito/Carrito.html"></a></li>
+        </ul>
+    </ul>
+    </Nav>
+</div> 
+<section class="principal">
+    <article>
+    <header class="Banner">
+        <h1>The Jybad Shop</h1>
+        <p>Desde enero 2022</p>
+        <p>Encuentra gran variedad de calzado</p>
+    </header>
+</article>
+</section>
+
+<main>
+    <form class="F">
+        <button type="button" class="btn" onclick="location.href='#Somos'"> Informacion</button>
+        <button type="button" class="btn" onclick="location.href='#Contacto'"> Contactanos</button>
+        <br>
+        <br>
+        <br>
+        <br>
+    </form>
+<br>
+<br>
+<br>
+
+    <section id="Somos">
+        <Div class="info">
+            <h3 id="Titulo">
+                Nosotros somos
+            </h3>
+            <p>
+                Nacemos con la mision de poder suplir a todos nuestros clientes con calzado<br> para toda su familia de la mejor calidad y al mejor precio.<br> Esto surge debido a la facinacion de las tenis. Nosotros al ver esta necesidad en nuestra comunidad iniciamos<br> este proyecto de nuestras casas y hoy a Dios gracias contamos<br> con más de 5 grandes marcas de distribuiciones.
+            </p>
+        </Div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form id="Contacto">
+        <div class="Contenido">
+            <div class="izquierdo">
+                <div class="Detalle direccion">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="topic">Direccion</div>
+                    <div class="text1">Siquirres</div>
+                    <div class="text2">Barrio San Rafael</div>
+                </div>
+                <div class="Detalle telefono">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="topic">Telefono</div>
+                    <div class="text1">+506 8582 1923</div>
+                    <div class="text2">+506 2768 4801</div>
+                </div>
+                <div class="Detalle email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text1">Jybad@hotmail.com</div>
+                </div>
+            </div>
+            <div class="derecho">
+                <div class="tema">Envia tu mensaje</div>
+                <p>Puedes contactar con nosotros por este medio.</p>
+            
+            <form action="#" id="C">
+                <div class="Caja">
+                    <input type="text" placeholder="Escriba su nombre" id="Nombre">
+                </div>
+                <div class="Caja">
+                    <input type="text" placeholder="Escriba su Correo"
+                    id="Email">
+                </div>
+                <div class="Caja Ctexto">
+                    <textarea></textarea>
+                </div>
+                <div class="btn-contact">
+                    <input type="button" value="Enviar" id="Mensaje">
+                </div>
+            </form>
+        </div>
+    </div>
+</form>
+    <br>
+    <br>
+    <br>
+    <br>
+</main>
 </body>
 </html>

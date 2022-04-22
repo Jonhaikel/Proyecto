@@ -1,0 +1,112 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem - 10px*/
+}
+
+*,*:before*:after{
+    box-sizing: inherit;
+}
+
+
+.tenis_image{
+    width: 25rem;
+    height: 25rem;
+}
+
+/*.col{
+    position: relative;
+    display: inline-block;
+    margin: 1rem 0 0 1rem;
+}*/
+
+/**/
+
+/*.button{
+    padding: 0.5rem;
+    background-color: #ffc107;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+
+}*/
+
+/*.button:hover{
+    background: rgb(28,150,137);
+background: linear-gradient(90deg, rgba(28,150,137,0.7710434515603116) 45%, rgba(92,112,3,0.7346288857339811) 59%);
+    color: #dfe9f3;
+}
+*/
+/*.canti{  
+    width: 10rem;
+}
+*/
+.ten{
+    background: rgb(57,57,57);
+    background: linear-gradient(90deg, rgba(57,57,57,0.9139005944174545) 31%, rgba(0,0,0,0.7990546560421043) 45%, rgba(6,5,5,0.9167017148656338) 69%);
+    width: 28rem;
+    margin-left: 8rem;
+    text-align: center;
+    height: 56.5rem;
+}
+
+.ten-m{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8018557764902836) 7%, rgba(70,21,59,0.9419117988992471) 25%, rgba(125,38,107,0.7794468129048494) 75%, rgba(6,5,5,0.8998949921765581) 93%);
+    width: 28rem;
+    margin-left: 8rem;
+    text-align: center;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 5rem 10rem rgba(95, 12, 12, 0.712);
+}
+
+.price{
+    position: relative;
+    color: aquamarine;
+    margin: 0;
+    float: left;
+    font-size: 2rem;
+}
+
+
+
+
+.descrip{
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/*body{
+    background-color: #0097a7;
+}*/
+
+.description-teni{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    background: rgb(12,91,79);
+    background-image: linear-gradient(90deg, rgba(12,91,79,0.846673703661152) 0%, rgba(22,144,116,0.8998949921765581) 54%, rgba(1,11,11,0.7990546560421043) 100%);
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: bisque;
+}

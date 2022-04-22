@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="/CSS/Interfaz.CSS">
+    <link rel="stylesheet" href="/CSS/Normalize.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="x">
+    <div Class="Nav">
+        <Nav class="N">
+            <ul>
+                <li><a class="fa-solid fa-shop" href="/Index.html"></a></li>
+            </ul>
+        </Nav>
+    </div>
+<header>
+    <h1 id="h1">Cancelacion de pedido</h1>
+</header>
+    <form class="form">
+            <h2 class="Titulo">Datos Tarjeta</h2>
+
+            <div class="Contenedor">
+                <div class="Grupos">
+                    <label for=" Valor" class="Input">Valor a pagar</label>
+                    <input type="number" id="val" class="Input" placeholder=" " >
+                </div>
+                <div class="Grupos">
+                    <label for=" Cliente" class="Input">Numero de tarjeta</label>
+                    <input type="number" id="tarjeta" class="Input" placeholder=" " >
+                </div>
+                <div class="Grupos">
+                    <label for=" Cliente" class="Input">fecha de expidencia</label>
+                    <input type="date" id="fecha" class="Input" placeholder=" " >
+                </div>
+                <div class="Grupos">
+                    <label for=" Correo" class="Input">CVV</label>
+                    <span class="linea"></span>
+                    <input type="number" id="codigo" >
+                    <br>
+                    <br>
+                </div>
+                <input type="submit" class="submit" value="Pagar">
+
+            </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/JS/Pago.js"></script>
+</body>
+</html>

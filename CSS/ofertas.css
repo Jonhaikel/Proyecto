@@ -1,0 +1,105 @@
+
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0059ff;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+}
+.body{
+    background-color: #000000;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem - 10px*/
+}
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+h1{
+    color:rgb(0, 0, 0);
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+}
+.description-teni{
+    color: rgb(247, 228, 228);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.descrip{
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.tenis_image{
+    border:4px solid rgb(255, 255, 255);
+    border-radius:22px;
+    width: 25rem;
+    height: 25rem;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem - 10px*/
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(253, 253, 253);
+}
+.ten{
+    border:4px solid rgb(255, 255, 255);
+    border-radius:22px;
+    background: rgb(7, 7, 7);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 31%, rgba(0,0,0,0.7990546560421043) 45%, rgba(6,5,5,0.9167017148656338) 69%);
+    width: 30rem;
+    margin-left: 8rem;
+    text-align: center;
+    height: 56.5rem;
+}
+.col{
+    display: block;
+    float: left;
+    margin: 1rem 0 0 1rem;
+}
+
+.price{
+    color: rgb(237, 238, 238);
+    margin: 0;
+    float: left;
+    font-size: 2rem;
+}
+.button{
+    padding: 0.5rem;
+    background-color: var(--secundario);
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+
+}
+.canti{  
+    width: 10rem;
+}
+h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 900px;
+    font-family: Arial;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20rem;
+    left: 38%;
+  }
+  .tabla {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #000000;
+  }

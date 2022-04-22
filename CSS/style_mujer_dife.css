@@ -1,0 +1,303 @@
+
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem - 10px*/
+}
+
+*,*:before*:after{
+    box-sizing: inherit;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.header{
+    background-color: antiquewhite;
+    background-image: url(/Imagenes/Fondo\ tenis\ mujer4.jpg);
+    background-size: 20rem;
+}*/
+.header-ad{
+    background-color: antiquewhite;
+    background-image: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 20%)), url(/Imagenes/fondo\ tenis\ hombre\ adidas.gif);
+    background-size: 14rem;
+}
+.header-conv{
+    background-color: antiquewhite;
+    background-image: linear-gradient(rgb(0 0 0 / 20%), rgb(0 0 0 / 20%)), url(/Imagenes/fondo\ tenis\ hombre\ converse.gif);
+    background-size: 14rem;
+}
+.header-new{
+    background-color: black;
+    background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(/Imagenes/fondo\ tenis\ hombre\ new\ balance.gif);
+    background-size: 14rem;
+}
+.header-vans{
+    background-color: black;
+    background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(/Imagenes/fondo\ tenis\ hombre\ vans.gif);
+    background-size: 14rem;
+}
+.header-nike{
+    background-color: black;
+    background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 30%)), url(/Imagenes/Fondo\ tenis\ mujer2.jpg);
+    background-size: 16rem;
+}
+#h1{
+    color: aquamarine;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.contenedor-tenis{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+}
+.col{
+    margin: 2rem;
+}
+
+.container{
+    position: relative;
+    width: 32rem;
+    height: 68rem;
+    background-color: #000;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.938);
+}
+
+.content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 36.8rem;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    padding: 2rem;
+    background: linear-gradient(to top,rgba(202, 46, 168, 0.233) 70%, transparent);
+}
+
+.ten-img{
+    width: 50%;
+    height: 50%;
+}
+
+.ten-img:hover{
+    width: 100%;
+    height: 100%;
+}
+
+
+.fig{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;  
+}
+
+.c1:hover{
+    
+    position: absolute;
+}
+.c2:hover{
+    
+    position: absolute;
+}
+.c3:hover{
+    
+    position: absolute;
+}
+.c4:hover{
+    
+    position: absolute;
+}
+
+.ten-imgi{
+    width: 100%;
+    position: absolute;
+    
+}
+
+.ca2{
+    transition: 0.6s;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+}
+
+.ca2:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.ca1:hover ~ .ca2{
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.fere .ten-imgii{
+    width: 100%;
+    position: absolute;
+    
+}
+
+.fere:hover .ten-imgii{
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    
+}
+
+.caa1{
+    transition: 0.6s;
+    clip-path: polygon(0 0, 55% 0, 20% 100%, 0 100%);
+}
+
+.caa2{
+    transition: 0.6s;
+    clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
+}
+
+.caa3{
+    transition: 0.6s;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+}
+
+.fere .di:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+.talla-color{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 9rem;
+    
+}
+
+.clas-talla, .clas-color{
+    margin-left: 2.5rem;
+    font-size: 13px;
+    
+}
+
+.talla, .color{
+    margin-left: 1.5rem;
+}
+.tallas, .colors{
+    background-color: pink;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    display: block;
+    width: 10rem;
+}
+
+.tallas:hover, .colors:hover{
+    background-color: aqua;
+}
+
+.box-one{
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-text{
+    font-size: 13px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.712);
+    font-weight: bold;
+}
+.sub-text span{
+    color: #fff;
+}
+#txt{
+    text-align: right;
+    font-size: 2rem;
+}
+
+
+.text{
+    font-size: 1.5rem;
+    color: pink;
+}
+
+
+.box-two{
+    width: 100%;
+    height: 100%;
+    margin-top: 2.5rem;
+}
+
+.canti{  
+    position: absolute;
+    width: 10rem;
+    height: 3rem;
+    display: block;
+    top: 30rem;
+    left: 4rem;
+    font-size: 2rem;
+    background-color: pink;
+    text-align: center;
+    color: #000;
+    border: none;
+    border-radius: 2rem;
+}
+
+.canti:hover{
+    background-color:aqua;
+}
+
+.canti::placeholder{
+    color: #000;
+}
+
+
+.shop{
+    position: absolute;
+    width: 5rem;
+    top: 30rem;
+    left: 15rem;
+    background: none;
+    border: none;
+    color: #0097a7;
+    transition: all .2s 
+    cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.shop:hover{
+    color: lightpink;
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 10px lightpink;
+}
+
+.text-shop{
+    position: absolute;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1280px) {
+    .text-shop{
+    top: 0rem;
+    margin-left: 2rem;
+    }
+}
+
+@media (min-width: 1280px){
+    .contenedor-tenis{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2.5rem;
+    }
+}

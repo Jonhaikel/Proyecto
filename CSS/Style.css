@@ -1,35 +1,338 @@
-#Nav{
-    background-color: rgb(2, 53, 53);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#Acceso{   
-    margin-left: 750px;
-    padding-right: 15px;
-}
-ul li { display: inline-block; zoom: 1; *display: inline;padding-left: 15px; color: white;}
-
-a{
-    text-decoration: none;
-    pointer-events: painted;
-    color: white;
-}
 html{
     box-sizing: border-box;
     font-size: 62.5%; /* 1rem - 10px*/
 }
 *,*:before, *:after{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
-h1{
-    color:rgb(0, 201, 252);
-    font-size: 2.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+
+/*Navegacion*/
+.Nav {
+    background-color: rgba(8, 8, 8, 0.966);
+    justify-content: space-evenly;
+    display:flex;
+    width: 100%;
+    margin:auto;
+    cursor: pointer;
+    height: 100%;
 }
+.N {
+    background-color: rgba(8, 8, 8, 0.329);
+    justify-content: flex-start;
+    display:flex;
+    width: 100%;
+    margin:auto;
+    cursor: pointer;
+    
+
+}
+.X {
+    background-color: rgba(8, 8, 8, 0.329);
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    margin:auto;
+    cursor: pointer;
+    margin-right: 20px;
+   
+
+}
+Nav ul {
+    list-style: none;
+    display:flex;
+    float: left;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+Nav ul li ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.459);
+    padding: 5px 2px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    font-size: 16px;
+    padding: 10px 14px;
+    display: block;
+    flex-wrap: wrap;
+}
+
+a:hover{
+    background: rgb(175, 172, 172);
+}
+
+Nav ul li ul li{
+  width: 100%; 
+  border-bottom: 1px solid rgba(238, 238, 238, 0.952);
+}
+
+Nav ul li ul{
+    display: none;
+}
+
+Nav ul li:hover > ul{
+    display: block;
+}
+
+
+
 body{
     font-size: 1.6rem;
-    font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400;
-    background: rgb(144, 144, 150);
+    font-family: 'Smokum', cursive;
+    background: #2c332fdc;
+
+}
+
+@media (max-width:768px) {
+    .N, .X{
+        flex-direction:column;
+        text-align: center;
+    }
+    
+}
+/*Header*/
+.principal{
+    background-image: url(../Imagenes/F1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    position: relative;
+    margin-top: -2rem;
+}
+
+.Banner{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+}
+
+.Banner h1{
+    color: rgba(0, 255, 255, 0.568);
+    font-size: 7rem;
+}
+
+.Banner p{
+    font-size: 2.5rem;
+        color:rgb(255, 255, 255);
+        font-size: 2.5rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+@media (max-width:768px) {
+    .principal{
+        background: url(../Imagenes/fondo7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+/*x*/
+.F{
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+.btn{
+    text-align:center;
+    border:1px solid #ffffff;
+    display:inline-block;
+    font-size: 20px;
+    background-color:rgba(139, 139, 139, 0);
+    color:#ffffff ;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 4px solid black;
+    background-color: #42dca3;
+    color: black;
+}
+/*Nosotros*/
+#Somos{
+    background-image: url(../Imagenes/f5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    position: relative; 
+}
+
+.info{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background: #000000a9;
+}
+
+.info p{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+}
+#Titulo{ 
+    color: #2bbd18be;
+    font-size: 5rem;
+}
+@media (max-width:768px) {
+    .info{
+        background: url(../Imagenes/fondoP.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+    @media (max-width:375px) {
+        .info{
+            background: url(../Imagenes/fondoPm.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+        }
+    }
+
+/*Contactanos*/
+#Contacto{
+    width: 80%;
+    background: #ffffff;
+    padding: 30px 60px 40px 40px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px;
+    margin-left: 8%;
+}
+#Contacto .Contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Contacto .Contenido .izquierdo{
+    width: 25%;
+    height: 100%;
+    position: relative;
+
+}
+.Contenido .izquierdo::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #42dca3;
+}
+.izquierdo .Detalle .text1,
+.izquierdo .Detalle .text2{
+    font-size: 13px;
+    color: rgb(122, 163, 163);
+}
+.izquierdo .Detalle{
+    margin: 14px;
+    text-align: center;
+}
+.izquierdo .Detalle i{
+    font-size: 30px;
+    color: #3e2093;
+}
+.izquierdo .Detalle .topic{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#Contacto .Contenido .derecho{
+    width: 75%;
+    margin-left: 75px;
+}
+.Contenido .derecho .tema{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3e2093;
+}
+.derecho .Caja{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+.derecho .Caja input,
+.derecho .Caja textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    background: #bbb6b6b4;
+    border-radius: 10px;
+    padding: 0 15px;
+    resize: none;
+}
+.Ctexto{
+    min-height: 140px;
+    margin-top: 6px;
+}
+.derecho .btn-contact input{
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    background: #3e2093;
+    cursor: pointer;
+}
+
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+    justify-content: center;
+    margin-right: 380px;
+    margin-top: -5px;
+
+}
+.buscar input{
+    width: 0;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+
+}
+.bus{
+    position: absolute;
+    top: 0;
+    right:0;
+    background:#42dca3 ;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+
+}
+.buscar:hover input{
+    width: 240px;
 }

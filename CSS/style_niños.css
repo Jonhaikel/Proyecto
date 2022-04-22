@@ -1,0 +1,50 @@
+.content{
+    background: linear-gradient(to top,#312d80ad 70%, transparent);
+}
+
+.tallas, .colors, .canti{
+    background-color: rgb(242, 252, 193);
+}
+.tallas:hover, .colors:hover, .canti:hover{
+    background-color: rgb(7, 255, 197);
+    color: black;
+}
+.container{
+    background-color: rgba(26, 46, 41, 0.725);
+}
+.sub-text{
+    font-weight: bold;
+    color: rgba(240, 248, 255, 0.879);
+}
+.sub-text span{
+    color: rgba(240, 248, 255, 0.879);
+}
+.text{
+    font-size: 1.5rem;
+    color: rgba(0, 250, 250, 0.908);
+}
+.contenedor-tenis{
+    background-color: rgba(159, 255, 75, 0.388);
+}
+
+.niña{
+    background-color: rgba(159, 245, 219, 0.405);
+}
+
+.shop{
+    position: absolute;
+    width: 5rem;
+    top: 30rem;
+    left: 15rem;
+    background: none;
+    border: none;
+    color: #1cf0adeb;
+    transition: all .2s 
+    cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.shop:hover{
+    color: rgba(146, 248, 29, 0.852);
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 10px rgba(146, 248, 29, 0.852);
+}

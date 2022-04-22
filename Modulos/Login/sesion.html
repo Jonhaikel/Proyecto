@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="/CSS/Login.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="x">
+    <div Class="Nav">
+        <Nav class="N">
+            <ul>
+                <li><a class="fa-solid fa-shop" href="/Index.html"></a></li>
+            </ul>
+        </Nav>
+    </div>   
+    <br>
+    <form class="form" id="formulario">
+        <h2 class="Titulo">Registrate</h2>
+        <p class="Cuenta">Ya tienes una cuenta? <a href="/Modulos/Login/Registrarse.html" class="Enlace">Ingresa aqui</a></p>
+
+        <div class="Contenedor">
+            <div class="Grupos">
+                <input type="text" id="Nombre" class="Input" placeholder=" ">
+                <label for=" Nom" class="Input">Nombre</label>
+                <span class="linea"></span>
+            </div>
+            <div class="Grupos">
+                <input type="text" id="Apellidos" class="Input" placeholder=" ">
+                <label for=" Apellido" class="Input">Apellido</label>
+                <span class="linea"></span>
+            </div>
+            <div class="Grupos">
+                <input type="email" id="Correo" class="Input" placeholder=" ">
+                <label for=" Correo" class="Input">Correo</label>
+                <span class="linea"></span>
+            </div>
+            <div class="Grupos">
+                <input type="password" id="Contra" class="Input" placeholder=" ">
+                <label for=" Contra" class="Input">Contraseña</label>
+                <span class="linea"></span>
+            </div>
+
+            <input type="submit" class="submit" value="Registrarse">
+            
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/JS/Login.js"></script>
+</body>
+</html>
