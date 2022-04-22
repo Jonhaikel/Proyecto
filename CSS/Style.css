@@ -5,6 +5,7 @@ html{
 *,*:before, *:after{
     box-sizing:border-box;
 }
+
 /*Navegacion*/
 .Nav {
     background-color: rgba(8, 8, 8, 0.966);

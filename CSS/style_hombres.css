@@ -29,3 +29,20 @@
     background-color: rgb(178, 209, 150);
 }
 
+.shop{
+    position: absolute;
+    width: 5rem;
+    top: 30rem;
+    left: 15rem;
+    background: none;
+    border: none;
+    color: #1cf063eb;
+    transition: all .2s 
+    cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.shop:hover{
+    color: rgb(98, 122, 255);
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 10px rgb(98, 122, 255);
+}

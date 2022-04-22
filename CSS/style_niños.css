@@ -26,3 +26,25 @@
 .contenedor-tenis{
     background-color: rgba(159, 255, 75, 0.388);
 }
+
+.niña{
+    background-color: rgba(159, 245, 219, 0.405);
+}
+
+.shop{
+    position: absolute;
+    width: 5rem;
+    top: 30rem;
+    left: 15rem;
+    background: none;
+    border: none;
+    color: #1cf0adeb;
+    transition: all .2s 
+    cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.shop:hover{
+    color: rgba(146, 248, 29, 0.852);
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 10px rgba(146, 248, 29, 0.852);
+}
