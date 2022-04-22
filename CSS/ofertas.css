@@ -7,59 +7,9 @@
     --gris: #757575;
     --grisClaro: #dfe9f3;
 }
-body{
-    
-        font-size: 1.1rem;
-        font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400;
-        background: rgb(0, 60, 255);
-        background: linear-gradient(-45deg, rgb(0, 0, 0) 50%, rgba(0, 132, 255, 0.993) 50%);
-    
+.body{
+    background-color: #000000;
 }
-Nav {
-    background-color: rgb(0, 0, 0);
-    justify-content: space-around;
-    display: flex;
-    width: 100%;
-    margin:auto;
-    cursor: pointer;
-}
-Nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-
-
-}
-Nav ul li ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color:rgba(0, 0, 0, 0.459);
-    padding: 5px 2px;
-
-}
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    padding: 10px 14px;
-    display: block;
-    
-}
-a:hover{
-    background: rgb(165, 155, 155);
-}
-Nav ul li ul li{
-  width: 100%; 
-  border-bottom: 1px solid rgba(238, 238, 238, 0.952);
-}
-Nav ul li ul{
-    display: none;
-}
-Nav ul li:hover > ul{
-    display: block;
-}
-
 html{
     box-sizing: border-box;
     font-size: 62.5%; /* 1rem - 10px*/
@@ -91,6 +41,8 @@ h2{
     font-weight: 600;
 }
 .tenis_image{
+    border:4px solid rgb(255, 255, 255);
+    border-radius:22px;
     width: 25rem;
     height: 25rem;
 }
@@ -118,9 +70,7 @@ h3{
     float: left;
     margin: 1rem 0 0 1rem;
 }
-.h2{
-    margin-top: 650px;
-}
+
 .price{
     color: rgb(237, 238, 238);
     margin: 0;
@@ -137,3 +87,19 @@ h3{
 .canti{  
     width: 10rem;
 }
+h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 900px;
+    font-family: Arial;
+    text-transform: uppercase;
+    position: absolute;
+    top: 20rem;
+    left: 38%;
+  }
+  .tabla {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #000000;
+  }

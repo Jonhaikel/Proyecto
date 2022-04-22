@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="/CSS/Interfaz.CSS">
+    <link rel="stylesheet" href="/CSS/Normalize.css">
+    <link rel="stylesheet" href="/CSS/Style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/735a2615ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="x">
+    <div Class="Nav">
+        <Nav class="N">
+            <ul>
+                <li><a class="fa-solid fa-shop" href="/Index.html"></a></li>
+            </ul>
+        </Nav>
+    </div>
+<header>
+    <h1 id="h1">The Jybad Shop</h1>
+</header>
+    <form class="form">
+            <h2 class="Titulo">Datos Cliente</h2>
+
+            <div class="Contenedor">
+                <div class="Grupos">
+                    <label for=" Cliente" class="Input">Cliente</label>
+                    <span class="linea"></span>
+                    <input type="text" id="cliente" class="Input" placeholder=" " readonly>
+
+                </div>
+                <div class="Grupos">
+                    <label for=" Correo" class="Input">Correo</label>
+                    <span class="linea"></span>
+                    <input type="email" id="correo" readonly>
+
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+    </form>
+    <br>
+    <br>
+    <hr>
+<div class="tabla">
+    <table class="tb">
+        <caption>Calzado</caption>
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Color</th>
+                <th>Talla</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="Imagen"><img src="/Imagenes/Nike Pegasus Trail 3 GORE-TEX nike mujer negro.jpg"</td>
+                <td data-label="Nombre">Nike Pegasus Trail 3 GORE-TEX</td>
+                <td data-label="Color">Negra</td>
+                <td data-label="Talla">40</td>
+                <td data-label="Cantidad">1</td>
+                <td data-label="Precio">$60</td>
+                <td data-label="Total">$60</td>
+            </tr>
+            <tr>
+                <td data-label="Imagen"><img src="/Imagenes/ZAPATILLAS SK8-HI vans hombre negro.jpg"</td>
+                <td data-label="Nombre">ZAPATILLAS SK8-HI</td>
+                <td data-label="Color">Negra</td>
+                <td data-label="Talla">42</td>
+                <td data-label="Cantidad">1</td>
+                <td data-label="Precio">$60</td>
+                <td data-label="Total">$60</td>
+            </tr>
+            <tr>
+                <td data-label="Imagen"><img src="/Imagenes/Fresh Foam X Hierro v7 new balance hombre amarillo.jpg"</td>
+                <td data-label="Nombre">Fresh Foam X Hierro v7</td>
+                <td data-label="Color">Amarillas</td>
+                <td data-label="Talla">41</td>
+                <td data-label="Cantidad">2</td>
+                <td data-label="Precio">$60</td>
+                <td data-label="Total">$120</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr>
+<br>
+<br>
+    <form class="B">
+        <button type="button" class="btn" onclick="location.href=''">Vaciar carrito</button>
+        <button type="button" class="btn" onclick="location.href='./Pago.html'"> Realizar pago</button>
+        <br>
+        <br>
+        <br>
+        <br>
+    </form>
+<script src="/JS/Carrito.js"></script>
+</body>
+</html>
