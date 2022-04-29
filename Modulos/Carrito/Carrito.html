@@ -49,62 +49,43 @@
     <br>
     <br>
     <hr>
-<div class="tabla">
-    <table class="tb">
-        <caption>Calzado</caption>
-        <thead>
-            <tr>
-                <th>Imagen</th>
-                <th>Nombre</th>
-                <th>Color</th>
-                <th>Talla</th>
-                <th>Cantidad</th>
-                <th>Precio</th>
-                <th>Total</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td data-label="Imagen"><img src="/Imagenes/Nike Pegasus Trail 3 GORE-TEX nike mujer negro.jpg"</td>
-                <td data-label="Nombre">Nike Pegasus Trail 3 GORE-TEX</td>
-                <td data-label="Color">Negra</td>
-                <td data-label="Talla">40</td>
-                <td data-label="Cantidad">1</td>
-                <td data-label="Precio">$60</td>
-                <td data-label="Total">$60</td>
-            </tr>
-            <tr>
-                <td data-label="Imagen"><img src="/Imagenes/ZAPATILLAS SK8-HI vans hombre negro.jpg"</td>
-                <td data-label="Nombre">ZAPATILLAS SK8-HI</td>
-                <td data-label="Color">Negra</td>
-                <td data-label="Talla">42</td>
-                <td data-label="Cantidad">1</td>
-                <td data-label="Precio">$60</td>
-                <td data-label="Total">$60</td>
-            </tr>
-            <tr>
-                <td data-label="Imagen"><img src="/Imagenes/Fresh Foam X Hierro v7 new balance hombre amarillo.jpg"</td>
-                <td data-label="Nombre">Fresh Foam X Hierro v7</td>
-                <td data-label="Color">Amarillas</td>
-                <td data-label="Talla">41</td>
-                <td data-label="Cantidad">2</td>
-                <td data-label="Precio">$60</td>
-                <td data-label="Total">$120</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<hr>
-<br>
-<br>
-    <form class="B">
-        <button type="button" class="btn" onclick="location.href=''">Vaciar carrito</button>
-        <button type="button" class="btn" onclick="location.href='./Pago.html'"> Realizar pago</button>
-        <br>
-        <br>
-        <br>
-        <br>
-    </form>
+    <div class="tabla">
+        <table class="tb">
+            <caption>Calzado</caption>
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="tablas">
+                <tr>
+    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        <p class="to">Total</p>
+        <h4 class="total" id="total">0</h4>
+    <hr>
+    <br>
+    <br>
+        <form class="B">
+            <button type="button" class="btn" id="vaciar-carrito" onclick="location.href=''">Vaciar carrito</button>
+            <button type="button" class="btn" onclick="location.href='./Pago.html'"> Realizar pago</button>
+            <br>
+            <br>
+            <br>
+            <br>
+        </form>
+
+    <!-- <button id="vaciar-carrito">Vaciar Carrito</button> -->
+
+    
 <script src="/JS/Carrito.js"></script>
+<script src="/JS/CarritoCompras.js"></script>
 </body>
 </html>

@@ -253,6 +253,7 @@ html{
     color: #000;
     border: none;
     border-radius: 2rem;
+    display: none;
 }
 
 .canti:hover{
@@ -285,6 +286,10 @@ html{
 .text-shop{
     position: absolute;
     font-size: 0.9rem;
+}
+
+.ff{
+    display: none;
 }
 
 @media (max-width: 1280px) {

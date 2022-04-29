@@ -148,3 +148,35 @@ td img{
     color: black;
 
 }
+
+.eliminar{
+    margin-left: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: red;
+    margin-top: 4rem;
+}
+
+.body{
+    background-image: url(/Imagenes/carritoimg.jpg);
+}
+
+.to{
+    font-size: 2rem;
+    margin-left: 25rem;
+}
+.total{
+    font-size: 3rem;
+    margin-left: 25rem;
+    margin-top: -2rem;
+}
+
+.cantidadI{
+    width: 12rem;
+    border-radius: 2rem;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+}
