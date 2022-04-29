@@ -107,7 +107,7 @@
     <br>
     <br>
 
-    <form id="Contacto">
+    <form id="Contacto" action="https://formsubmit.co/Jybad12@hotmail.com" method="POST">
         <div class="Contenido">
             <div class="izquierdo">
                 <div class="Detalle direccion">
@@ -125,30 +125,35 @@
                 <div class="Detalle email">
                     <i class="fa-solid fa-envelope"></i>
                     <div class="topic">Email</div>
-                    <div class="text1">Jybad@hotmail.com</div>
+                    <div class="text1">Jybad12@hotmail.com</div>
                 </div>
             </div>
             <div class="derecho">
                 <div class="tema">Envia tu mensaje</div>
                 <p>Puedes contactar con nosotros por este medio.</p>
             
-            <form action="#" id="C">
+            <form id="Conta">
                 <div class="Caja">
-                    <input type="text" placeholder="Escriba su nombre" id="Nombre">
+                    <input type="text" placeholder="Escriba su nombre" id="Nombre" name="Nombre">
                 </div>
                 <div class="Caja">
                     <input type="text" placeholder="Escriba su Correo"
-                    id="Email">
+                    id="Email" name="Email">
                 </div>
                 <div class="Caja Ctexto">
-                    <textarea></textarea>
+                    <textarea name="Comentario"></textarea>
                 </div>
                 <div class="btn-contact">
-                    <input type="button" value="Enviar" id="Mensaje">
+                    <input type="submit" value="Enviar" class="submit">
                 </div>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5502">
+                <input type="hidden" name="_captcha" value="false">
+
             </form>
         </div>
     </div>
+    
 </form>
     <br>
     <br>
