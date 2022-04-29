@@ -3,6 +3,8 @@ const formulario = document.querySelector("#formulario");
 
 formulario.addEventListener("submit" , function(e){
     e.preventDefault();
+    var datos = new Array();
+    var informacion = document.getElementsByClassName('Input'),Valor = [].map.call(informacion,function(Info){ datos.push(Info.value);});
     var Nom = document.getElementById("Nombre");
     var ape = document.getElementById("Apellidos");
     var email = document.getElementById("Correo");
@@ -44,6 +46,9 @@ formulario.addEventListener("submit" , function(e){
             )
         }else{
             console.log('Nombre: '+ Nom.value,',Apellido: ' + ape.value,',Correo: ' + email.value,',Contraseña: ' + password.value);
+            datos.forEach(function(Valores){
+                console.log("Datos usuario:" + Valores);
+            })
             swal.fire(
                 'Registro Exitoso',
                 '',
@@ -56,3 +61,4 @@ formulario.addEventListener("submit" , function(e){
 
  }
 })
+
